@@ -1,0 +1,95 @@
+# 監控目標大廠名單配置 (本土半導體/硬體巨頭 + 跨國外商大廠)
+
+foreign_big_tech:
+  - id: "google"
+    name: "Google"
+    keywords: ["Google", "谷歌", "Google Taiwan"]
+    tier: "Tier 1"
+    domains: ["Cloud", "Backend", "AI", "Mobile", "DevOps"]
+  - id: "microsoft"
+    name: "Microsoft"
+    keywords: ["Microsoft", "微軟", "台灣微軟"]
+    tier: "Tier 1"
+    domains: ["Cloud", "Azure", "Backend", "AI", "Fullstack"]
+  - id: "nvidia"
+    name: "Nvidia"
+    keywords: ["Nvidia", "輝達", "台灣輝達"]
+    tier: "Tier 1"
+    domains: ["AI", "CUDA", "Driver", "System Software", "Embedded", "Backend"]
+  - id: "amd"
+    name: "AMD"
+    keywords: ["AMD", "超微", "超微半導體", "台灣超微"]
+    tier: "Tier 1"
+    domains: ["Firmware", "Driver", "EDA", "System Software", "C++", "Python"]
+  - id: "amazon"
+    name: "Amazon / AWS"
+    keywords: ["Amazon", "AWS", "亞馬遜", "Amazon Web Services"]
+    tier: "Tier 1"
+    domains: ["Cloud", "Backend", "Distributed Systems", "DevOps"]
+  - id: "line"
+    name: "LINE"
+    keywords: ["LINE", "台灣連線", "連線金融科技"]
+    tier: "Tier 1"
+    domains: ["Backend", "Frontend", "Data Engineering", "Microservices", "iOS", "Android"]
+  - id: "shopee"
+    name: "Shopee"
+    keywords: ["Shopee", "蝦皮", "新加坡商蝦皮"]
+    tier: "Tier 1"
+    domains: ["Backend", "High Concurrency", "Frontend", "Data", "DevOps"]
+  - id: "uber"
+    name: "Uber"
+    keywords: ["Uber", "台灣宇博"]
+    tier: "Tier 1"
+    domains: ["Backend", "Distributed Systems", "Mobile", "Data"]
+  - id: "micron"
+    name: "Micron"
+    keywords: ["Micron", "美光", "台灣美光"]
+    tier: "Tier 1"
+    domains: ["Smart Manufacturing", "CIM", "IT Software", "Data Engineering"]
+  - id: "qualcomm"
+    name: "Qualcomm"
+    keywords: ["Qualcomm", "高通", "台灣高通"]
+    tier: "Tier 1"
+    domains: ["Firmware", "Embedded Linux", "Modem", "Driver"]
+  - id: "synopsys"
+    name: "Synopsys"
+    keywords: ["Synopsys", "新思科技", "台灣新思"]
+    tier: "Tier 1"
+    domains: ["EDA", "C++", "Algorithms", "IC Design Tools"]
+  - id: "cadence"
+    name: "Cadence"
+    keywords: ["Cadence", "益華電腦"]
+    tier: "Tier 1"
+    domains: ["EDA", "C++", "Compiler", "Automation"]
+
+local_giants:
+  - id: "tsmc"
+    name: "台積電 (TSMC)"
+    keywords: ["台積電", "TSMC", "台灣積體電路"]
+    tier: "Tier 1"
+    domains: ["IT Software", "CIM", "Smart Manufacturing", "Cloud", "Big Data", "Algorithms"]
+  - id: "mediatek"
+    name: "聯發科 (MediaTek)"
+    keywords: ["聯發科", "MediaTek", "聯發科技"]
+    tier: "Tier 1"
+    domains: ["Firmware", "Embedded", "Linux Kernel", "Android Framework", "EDA", "AI"]
+  - id: "realtek"
+    name: "瑞昱半導體 (Realtek)"
+    keywords: ["瑞昱", "Realtek", "螃蟹卡"]
+    tier: "Tier 2"
+    domains: ["Embedded", "Driver", "Network Software", "Firmware"]
+  - id: "asus"
+    name: "華碩 (ASUS)"
+    keywords: ["華碩", "ASUS", "華碩電腦"]
+    tier: "Tier 2"
+    domains: ["Cloud", "AIGC", "Mobile", "Backend", "IoT"]
+  - id: "quanta"
+    name: "廣達電腦 (Quanta)"
+    keywords: ["廣達", "Quanta", "雲達", "QCT"]
+    tier: "Tier 2"
+    domains: ["Server Software", "BMC Firmware", "Cloud Infrastructure", "DevOps"]
+  - id: "trendmicro"
+    name: "趨勢科技 (Trend Micro)"
+    keywords: ["趨勢科技", "Trend Micro"]
+    tier: "Tier 2"
+    domains: ["Cloud Security", "Backend", "Go", "Python", "DevOps", "AI Security"]

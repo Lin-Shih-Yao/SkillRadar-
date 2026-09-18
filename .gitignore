@@ -1,0 +1,22 @@
+# Python & Virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# 環境變數與金鑰
+.env
+.env.local
+
+# 本地 SQLite 資料庫與日誌
+data/*.db
+data/*.sqlite3
+*.log
+
+# IDE & OS
+.DS_Store
+.vscode/
+.idea/
